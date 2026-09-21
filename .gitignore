@@ -1,0 +1,26 @@
+# CMake build dirs
+build*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Pico SDK артефакты
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+*.dis
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# misc
+*.o
+*.a
+compile_commands.json
+*.log
